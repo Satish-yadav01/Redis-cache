@@ -1,0 +1,60 @@
+# Ignore Maven and Gradle build output
+/target/
+/out/
+!.mvn/wrapper/maven-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar
+/build/
+
+# Ignore IntelliJ IDEA and Eclipse project files
+.idea/
+/*.iml
+*.log
+*.swp
+.classpath
+.project
+.settings/
+/target/
+
+# Ignore compiled class files
+*.class
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables and config files
+.env
+*.env
+
+# Ignore IDE-specific settings
+.vscode/
+
+# Ignore database and secret files
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+
+# Ignore JAR and WAR files
+*.jar
+*.war
+
+# Ignore package managers' lock files
+package-lock.json
+yarn.lock
+
+# Ignore node_modules (if you're using Node.js)
+node_modules/
+
+# Ignore files created by testing frameworks
+/target/surefire-reports/
+test-output/
+
+# Ignore Lombok config (if you're using Lombok)
+lombok.config
